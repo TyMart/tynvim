@@ -5,4 +5,8 @@ return{
     {"Civitasv/cmake-tools.nvim"},
     {"williamboman/mason.nvim"},
     {"dense-analysis/ale"},
+    ---@type LazySpec
+    {'nvim-telescope/telescope.nvim', tag = '0.1.8',
+      dependencies = { 'nvim-lua/plenary.nvim' }
+    }
 }
